@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Simplest Frame by dTech" />
+        <meta property="og:url" content="https://dtech.vision/simpleframe/" />
+        <meta
+            property="og:image"
+            content="https://dtech.vision/simpleframe/opengraph.png"
+        />
+        <meta
+            property="og:description"
+            content="The simplest Farcaster Frame one can code"
+        />
+        <meta
+            property="fc:frame"
+            content='{
+                "version": "next",
+                "imageUrl": "https://dtech.vision/frame.png",
+                "button": {
+                    "title": "THE Farcaster product studio",
+                    "action": {
+                        "type": "launch_frame",
+                        "name": "Learn Farcaster",
+                        "url": "https://dtech.vision/farcaster/",
+                        "splashImageUrl": "https://samuelhuber.de/splash.png",
+                        "splashBackgroundColor": "#f7f7f7"
+                    }
+                }
+            }'
+        />
+    </head>
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/@farcaster/frame-sdk/dist/index.min.js"></script>
+        <script>
+            frame.sdk.actions.ready();
+        </script>
+        <div
+            style="
+                font-family: Arial, sans-serif;
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 30px;
+                background-color: #f8f9fa;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            "
+        >
+            <img
+                src="https://dtech.vision/favicon.svg"
+                width="128"
+                height="128"
+                alt="dTech Logo"
+            />
+            <span
+                style="
+                    font-size: 24px;
+                    color: #2c3e50;
+                    display: block;
+                    margin-bottom: 20px;
+                "
+                >Hello from the dTech team. This is easy right?</span
+            >
+            Learn more about Frames
+            <a
+                href="https://dtech.vision/farcaster"
+                style="
+                    color: #3498db;
+                    text-decoration: none;
+                    font-weight: bold;
+                    border-bottom: 2px solid #3498db;
+                    padding-bottom: 2px;
+                    transition: all 0.3s ease;
+                "
+            >
+                here
+            </a>
+        </div>
+    </body>
+</html>
