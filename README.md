@@ -10,7 +10,7 @@ Includes
 
 Edit [index.html](./index.html) to change the webpage rendered in the Frame.
 
-Edit [.well-known/farcaster.json] to adjust the app name and metadata.
+Edit [.well-known/farcaster.json](./.well-known/farcaster.json) to adjust the app name and metadata.
 
 Edit the images to adjust the splash screen and icon, etc.
 
